@@ -1,0 +1,1 @@
+-- schema 생성할 sql
