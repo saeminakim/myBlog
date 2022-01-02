@@ -20,7 +20,7 @@ public class MyBlogApplication {
     public static void main(String[] args) {
         SpringApplication.run(MyBlogApplication.class, args);
 
-        System.out.println("\n Create Feed ---------------------- \n");
+        /*System.out.println("\n Create Feed ---------------------- \n");
         Feed feed = new Feed();
         dao.create(feed);
 
@@ -30,7 +30,7 @@ public class MyBlogApplication {
 
         System.out.println("\n All Feeds ---------------------- \n");
         List<Feed> feeds = dao.list();
-        feeds.forEach(System.out::println);
+        feeds.forEach(System.out::println);*/
     }
 
 }
