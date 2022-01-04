@@ -36,7 +36,8 @@ public class FeedJdbcDAO implements DAO<Feed> {
 
     @Override
     public List<Feed> list() {
-        String sql = "SELECT id, name, title, content, category, createdTime, modifiedTime, delFlag from feed";
+        String sql = "SELECT * from feed";
+//        String sql = "SELECT id, name, title, content, category, createdTime, modifiedTime, delFlag from feed";
         return jdbcTemplate.query(sql, rowMapper);
     }
 
