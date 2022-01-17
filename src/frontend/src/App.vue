@@ -35,7 +35,7 @@
           shaped
           color="rgba(0, 0, 0, 0.3)"
       >
-        <v-list-item>
+        <v-list-item href>
           <v-list-item-icon>
             <v-icon>mdi-home</v-icon>
           </v-list-item-icon>
@@ -134,6 +134,7 @@
     </v-navigation-drawer>
 
     <v-main>
+      <router-view></router-view>
       <hello-world/>
 <!--      <v-container-->
 <!--          class="py-8 px-6"-->
